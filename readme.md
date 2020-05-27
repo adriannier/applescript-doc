@@ -4,7 +4,7 @@ Command-line tool to create markdown-formatted documentation from AppleScript (.
 
 ## Compatiblity
 
-This project was created, built, and tested with Xcode 11.3.1 and Swift 5.1 on macOS 10.14.6 with the macOS Deployment Target set to 10.13.
+This project was created, built, and tested with Xcode 11.3.1 and Swift 5 on macOS 10.14.6 with the macOS Deployment Target set to 10.13.
 
 ## Usage
 
