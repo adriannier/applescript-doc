@@ -1,4 +1,4 @@
-# AppleScript Documentation Generator (asdoc)
+# AppleScript Documentation Generator (osadoc)
 
 Command-line tool to create markdown-formatted documentation from AppleScript (.scpt and .applescript) files.
 
@@ -8,4 +8,4 @@ This project was created, built, and tested with Xcode 11.3.1 and Swift 5 on mac
 
 ## Usage
 
-Documentation on how to use `asdoc` is printed when running the tool without parameters or with `--help`
+Documentation on how to use `osadoc` is printed when running the tool without parameters or with `--help`
