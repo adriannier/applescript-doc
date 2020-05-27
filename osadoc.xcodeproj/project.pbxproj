@@ -32,9 +32,9 @@
 
 /* Begin PBXFileReference section */
 		3A1FDEDF247ACA7B00012770 /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
-		3A3260672479B0D60085F789 /* asdoc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = asdoc; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3260672479B0D60085F789 /* osadoc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = osadoc; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A32606A2479B0D60085F789 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3A3B9059247B2FF3005F04D2 /* asdoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asdoc.entitlements; sourceTree = "<group>"; };
+		3A3B9059247B2FF3005F04D2 /* osadoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = osadoc.entitlements; sourceTree = "<group>"; };
 		3A677D38247B136900B77A38 /* errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errors.swift; sourceTree = "<group>"; };
 		3A677D3A247B26DA00B77A38 /* version */ = {isa = PBXFileReference; lastKnownFileType = text; path = version; sourceTree = "<group>"; };
 		3A88E6842479C93300F4A733 /* ScriptDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptDocument.swift; sourceTree = "<group>"; };
@@ -59,7 +59,6 @@
 		3A32605E2479B0D60085F789 = {
 			isa = PBXGroup;
 			children = (
-				3A3B9059247B2FF3005F04D2 /* asdoc.entitlements */,
 				3A677D3A247B26DA00B77A38 /* version */,
 				3A3260692479B0D60085F789 /* src */,
 				3A3260682479B0D60085F789 /* Products */,
@@ -69,7 +68,7 @@
 		3A3260682479B0D60085F789 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A3260672479B0D60085F789 /* asdoc */,
+				3A3260672479B0D60085F789 /* osadoc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +84,7 @@
 				3A88E68C2479E95800F4A733 /* ScriptString.swift */,
 				3A88E6862479CE7500F4A733 /* extensions.swift */,
 				3A677D38247B136900B77A38 /* errors.swift */,
+				3A3B9059247B2FF3005F04D2 /* osadoc.entitlements */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -92,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A3260662479B0D60085F789 /* asdoc */ = {
+		3A3260662479B0D60085F789 /* osadoc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A32606E2479B0D60085F789 /* Build configuration list for PBXNativeTarget "asdoc" */;
+			buildConfigurationList = 3A32606E2479B0D60085F789 /* Build configuration list for PBXNativeTarget "osadoc" */;
 			buildPhases = (
 				3A3260632479B0D60085F789 /* Sources */,
 				3A3260642479B0D60085F789 /* Frameworks */,
@@ -104,12 +104,12 @@
 			);
 			dependencies = (
 			);
-			name = asdoc;
+			name = osadoc;
 			packageProductDependencies = (
 				3A3260722479B2E70085F789 /* ArgumentParser */,
 			);
 			productName = "applescript-doc";
-			productReference = 3A3260672479B0D60085F789 /* asdoc */;
+			productReference = 3A3260672479B0D60085F789 /* osadoc */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A3260622479B0D60085F789 /* Build configuration list for PBXProject "asdoc" */;
+			buildConfigurationList = 3A3260622479B0D60085F789 /* Build configuration list for PBXProject "osadoc" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A3260662479B0D60085F789 /* asdoc */,
+				3A3260662479B0D60085F789 /* osadoc */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 		3A32606F2479B0D60085F789 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = asdoc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/osadoc.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8AE3KK6MN5;
@@ -299,7 +299,7 @@
 		3A3260702479B0D60085F789 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = asdoc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/osadoc.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8AE3KK6MN5;
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A3260622479B0D60085F789 /* Build configuration list for PBXProject "asdoc" */ = {
+		3A3260622479B0D60085F789 /* Build configuration list for PBXProject "osadoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A32606C2479B0D60085F789 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A32606E2479B0D60085F789 /* Build configuration list for PBXNativeTarget "asdoc" */ = {
+		3A32606E2479B0D60085F789 /* Build configuration list for PBXNativeTarget "osadoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A32606F2479B0D60085F789 /* Debug */,

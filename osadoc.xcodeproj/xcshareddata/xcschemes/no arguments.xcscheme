@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A3260662479B0D60085F789"
-               BuildableName = "asdoc"
-               BlueprintName = "asdoc"
-               ReferencedContainer = "container:asdoc.xcodeproj">
+               BuildableName = "osadoc"
+               BlueprintName = "osadoc"
+               ReferencedContainer = "container:osadoc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A3260662479B0D60085F789"
-            BuildableName = "asdoc"
-            BlueprintName = "asdoc"
-            ReferencedContainer = "container:asdoc.xcodeproj">
+            BuildableName = "osadoc"
+            BlueprintName = "osadoc"
+            ReferencedContainer = "container:osadoc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A3260662479B0D60085F789"
-            BuildableName = "asdoc"
-            BlueprintName = "asdoc"
-            ReferencedContainer = "container:asdoc.xcodeproj">
+            BuildableName = "osadoc"
+            BlueprintName = "osadoc"
+            ReferencedContainer = "container:osadoc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

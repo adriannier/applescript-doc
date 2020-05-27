@@ -5,7 +5,7 @@
 import Foundation
 import ArgumentParser
 
-struct asdoc: ParsableCommand {
+struct osadoc: ParsableCommand {
     
     static var configuration = CommandConfiguration(
     abstract: "Generates markdown-formatted documentation from an AppleScript file",
@@ -108,4 +108,4 @@ struct asdoc: ParsableCommand {
 
 }
 
-asdoc.main()
+osadoc.main()
